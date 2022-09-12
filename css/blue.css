@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: rgb(219, 219, 255);                                       
+}
+
+.group {
+    justify-content: center;
+    background-color: #fff;
+    justify-content: center;
+    width: 300px;
+    border: solid hsl(0, 0%, 100%);
+    border-radius: 0px 0px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+    height: 50vh; 
+    box-shadow: 0px 5px 0px 0px rgb(209, 198, 198); 
+}
+
+.img {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;                            
+    width: 300px;
+    border-radius: 15px;
+    border-radius: 5px;                                                                                    
+}
+
+.text {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.box {
+    margin-left: 35px;
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+    background-color: rgb(238, 236, 247);
+    height: 6vh;
+    width: 35vh;
+    line-height: 22px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.change {
+    color: blueviolet;
+}
+
+.proceed {
+    text-align: center;
+    height: 5vh;
+    width: 40vh;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px rgb(209, 198, 198);
+}
+
+.cancel {
+    height: 5vh;
+    width: 40vh;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    
+}
